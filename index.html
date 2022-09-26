@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #first{                                       /* # is used to target by id*/           
+            background-color:rgb(34, 204, 147);
+        } 
+        .bg-blue{                                    /*  .(dot) is used to target by class*/
+            background-color: blue;
+            color:beige
+        }
+    </style>
+</head>
+<body>
+    <div id="first" style="background-color: blue ;">                           <!--<id's are unique>--> 
+        first
+    </div>
+    <div id="second">
+        second
+    </div>
+    <section class="red bg-blue border-purple">   <!--<in class we add so many element>-->
+        red bg-blue border-purple
+    </section>
+</body>
+</html>
+
+<!-- There are three ways to add css:- 
+1.<style></style> tag
+2.inline css - adding css using style attribute
+3. external css - adding a stylesheet(.css) file to html using <link> tag (recommended) -->

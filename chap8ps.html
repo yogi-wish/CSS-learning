@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chap 8 Practice set</title>
+    <style>
+        .progress {
+            animation: load 1s ease-in-out 1 normal;
+            height: 3px;
+            background-color: red;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            height: 15vh;
+            background-color: black;
+
+        }
+
+        main {
+            height: 90vh;
+            background-color: blue;
+        }
+
+        @keyframes load {
+            0% {
+                width: 0vw;
+            }
+
+            50% {
+                width: 60vw;
+            }
+
+            100% {
+                width: 100vw;
+            }
+        }
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        /* img{
+            animation: rotate 1s ease-in  infinite;
+        } */
+        .slider{
+            background-color: aqua;
+            height: 500px;
+            width: 100vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="progress"></div>
+    <header>
+
+    </header>
+    <main>
+        <!-- <img src="1.jpg" alt="" srcset=""> -->
+        <div class="slider">
+
+        </div>
+    </main>
+</body>
+
+</html>

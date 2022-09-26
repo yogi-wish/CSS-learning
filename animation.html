@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: aqua;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* animation properties */
+            /* animation-name: yogi;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: 3;
+            animation-direction: alternate-reverse; */
+            /* animation properties shorthand */
+            animation: yogi 3s ease-in-out 0s 3 alternate-reverse;
+        }
+        img{
+            animation: yogi 3s ease-in-out 0s 3 alternate-reverse;
+        }
+        @keyframes yogi {
+            from{
+                width: 300px;
+                height: 200px;
+            }
+            to{
+                width: 100vw;
+                height: 100vh;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="box">
+            This is me
+        </div> -->
+        <img src="images.jpg" alt="" srcset="">
+    </div>
+</body>
+</html>

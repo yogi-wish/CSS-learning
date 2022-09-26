@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssSelector</title>
+    <style>
+        h1,p{                          /* we can group the selector seperated by comma*/
+            color:coral;
+        }
+        span{
+            background: blue;
+        }
+        #red{
+            background-color: brown;
+        }
+        .black{
+            font-size: 6mm;
+        }
+        *{                           
+            /*   * is a univesal selector   */
+            padding: 0cm;
+            margin: 3 mm;
+        }
+        .aqua{
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>This is a CSS Selector</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eligendi quaerat, molestiae ex facilis aliquam nemo corporis, laboriosam nisi voluptatibus, blanditiis cupiditate dolore consectetur ipsum laborum et illo rerum commodi!</p>
+        <h1>This is another h1</h1>
+        <div id="red">bg is red</div>
+        <span class="blue aqua">first tag</span>  
+         <!-- in classes we use multiple element but in id we use one element. here we can see this class use blue and aqua element. -->
+        <span class="black">second tag</span>
+        <span class="green">third tag</span>
+        <h3>I am h3</h3>
+    </div>
+</body>
+</html>
